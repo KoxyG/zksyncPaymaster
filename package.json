@@ -9,7 +9,7 @@
     "deploy": "hardhat deploy-zksync --script deploy.ts",
     "deployErc20": "hardhat deploy-zksync --script deployErc20.ts",
     "deployPaymaster": "hardhat deploy-zksync --script paymaster.ts",
-    "interact": "hardhat deploy-zksync --script interact.ts",
+    "interact": "hardhat deploy-zksync --script interactPaymaster.ts",
     "compile": "hardhat compile",
     "clean": "hardhat clean",
     "test": "hardhat test --network hardhat"
