@@ -1,8 +1,8 @@
 import * as hre from "hardhat";
-import { getWallet, getProvider } from "./utils";
+import { getWallet, getProvider } from "../deploy/utils";
 import { ethers } from "ethers";
 import { utils } from "zksync-ethers";
-import paymaster from "./paymaster";
+import paymaster from "../deploy/paymaster";
 import { getPaymasterParams } from "zksync-ethers/build/paymaster-utils";
 
 
