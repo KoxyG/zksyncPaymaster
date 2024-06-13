@@ -18,4 +18,14 @@
 
 Note: Both `npm run deploy` and `npm run interact` are set in the `package.json`. You can also run your files directly, for example: `npx hardhat deploy-zksync --script deploy.ts`
 
+### Script interaction
+
+![Script](./images/script.png)
+
+
+### Blockchain explorer
+
+![Zksync explorer](./images/explorer.png)
+
+
 
